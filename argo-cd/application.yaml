@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default  # ArgoCD project, 'default' is commonly used
   source:
-    repoURL: https://github.com/madhukamesh/argocd-app-gitops.git # Git repository URL
+    repoURL: https://github.com/madhukamesh/angular_new_gitops.git # Git repository URL
     targetRevision: HEAD  # Branch or tag, e.g., 'main', 'master', 'v1.0'
     path: k8s  # Path to the Kubernetes manifests inside the Git repo
   destination:
